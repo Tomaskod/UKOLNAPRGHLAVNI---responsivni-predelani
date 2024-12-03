@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 /*horní pruhy*/
 nav{
-    background-color: black;
+    background-color: #070F44;
     text-align: right;
     justify-content: right;
     height: 60px;
@@ -17,19 +18,19 @@ nav li{
     color: white;
     display: inline;
     padding: 10px;
+    font-size: 120%;
 }
 nav li a{
     text-decoration: none;
+    color: white;
     
 }
-a:hover{
+nav li a:hover{
     color: orange;
 }
-a:visited{
-    color: white;
-}
+ 
 .pruh{
-    background-color: red;
+    background-color: #0D3858;
     height: 40px;
 }
 
@@ -101,14 +102,20 @@ main{
 
 /*koncovka*/
 footer{
-    background-color: beige;
+    background-color: #070F44;
     padding: 10px;
     margin-top: 150px;
 }
 footer p{
     text-align: right;
+    color: white;
 }
 
 
 
-
+/* Color Theme Swatches in Hex */
+.Upgradable-Dark-Blue-Black-1-hex { color: #070F44; }
+.Upgradable-Dark-Blue-Black-2-hex { color: #050720; }
+.Upgradable-Dark-Blue-Black-3-hex { color: #0D3858; }
+.Upgradable-Dark-Blue-Black-4-hex { color: #222222; }
+.Upgradable-Dark-Blue-Black-5-hex { color: #000000; }
