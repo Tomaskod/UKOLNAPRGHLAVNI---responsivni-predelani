@@ -8,7 +8,7 @@
 }
 /*horní pruhy*/
 nav{
-    background-color: #070F44;
+    background-color: #403F3F;
     text-align: right;
     justify-content: right;
     height: 60px;
@@ -30,7 +30,7 @@ nav li a:hover{
 }
  
 .pruh{
-    background-color: #0D3858;
+    background-color: #A6A4A4;
     height: 40px;
 }
 
@@ -54,6 +54,7 @@ header img{
     text-align: center;
     align-items: center;
     font-family: Bungee Shade;
+    color: black;
 }
 .nadpis h1{
     font-size: 500%;
@@ -72,16 +73,38 @@ main{
 }
 
 .logo a img{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     display: inline;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    padding-top: 50px;
-    
+    padding-top: 200px;
 }
+
+.custom-shape-divider-top-1733331767 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1733331767 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 750px;
+}
+
+.custom-shape-divider-top-1733331767 .shape-fill {
+    fill: #D9D7D7;
+}
+
 .omne{
     max-width: 600px;
     justify-content: center;
@@ -102,7 +125,7 @@ main{
 
 /*koncovka*/
 footer{
-    background-color: #070F44;
+    background-color: #403F3F;
     padding: 10px;
     margin-top: 150px;
 }
@@ -111,11 +134,14 @@ footer p{
     color: white;
 }
 
-
-
 /* Color Theme Swatches in Hex */
-.Upgradable-Dark-Blue-Black-1-hex { color: #070F44; }
-.Upgradable-Dark-Blue-Black-2-hex { color: #050720; }
-.Upgradable-Dark-Blue-Black-3-hex { color: #0D3858; }
-.Upgradable-Dark-Blue-Black-4-hex { color: #222222; }
-.Upgradable-Dark-Blue-Black-5-hex { color: #000000; }
+.dark-forest-with-spooky-man-walking-on-a-path-1-hex { color: #08090D; }
+.dark-forest-with-spooky-man-walking-on-a-path-2-hex { color: #1A1E26; }
+.dark-forest-with-spooky-man-walking-on-a-path-3-hex { color: #343A40; }
+.dark-forest-with-spooky-man-walking-on-a-path-4-hex { color: #6E7371; }
+.dark-forest-with-spooky-man-walking-on-a-path-5-hex { color: #A1A69C; }
+
+
+
+
+
