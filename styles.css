@@ -84,9 +84,9 @@ main{
 }
 
 .custom-shape-divider-top-1733331767 {
-    position: absolute;
+    position: relative;
     z-index: -1;
-    top: 0;
+    top: 100%;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -133,12 +133,14 @@ footer{
 footer p{
     text-align: right;
     color: white;
+    padding-left: 90px;
 }
 
 
 
 /*Iphone SE*/
 @media(max-width:375px){
+    
     nav{
         display:flex ;
         flex-direction: row;
@@ -195,18 +197,18 @@ footer p{
         
     }
     .custom-shape-divider-top-1733331767 {
-        position: absolute;
-        z-index: -1;
-        top: 0;
+        position: relative;
+        z-index: 100;
+        top: 100%;
+        max-width: 100%;
         left: 0;
-        width: 120%;
-        overflow: hidden;
+        overflow-x: hidden;
         line-height: 0;
         transform: rotate(180deg);
     }
     
     .custom-shape-divider-top-1733331767 svg {
-        position: relative;
+        position: absolute;
         display: block;
         width: calc(280% + 1.3px);
         height: 800px;
@@ -242,7 +244,6 @@ footer p{
         background-color: #403F3F;
         text-align: center;
         justify-content: center;
-        padding: 20px;
     }
     nav li{
         color: white;
@@ -295,7 +296,7 @@ footer p{
         z-index: -1;
         top: 0;
         left: 0;
-        width: 120%;
+        max-width: 100%;
         overflow: hidden;
         line-height: 0;
         transform: rotate(180deg);
@@ -336,11 +337,10 @@ footer p{
     footer p{
         text-align: center;
         color: white;
-        padding-left: 90px;
     }
 }
 /*normální monitor*/
-@media(min-width:1500px){
+@media(min-width:1024px){
     nav{
         background-color: #403F3F;
         text-align: right;
@@ -407,6 +407,7 @@ footer p{
     }
     
     .logo a img{
+        z-index: -5;
         height: 400px;
         width: 300px;
         display: inline;
