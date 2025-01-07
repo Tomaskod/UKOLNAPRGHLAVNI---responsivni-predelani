@@ -148,14 +148,10 @@ footer p{
         text-align: center;
         justify-content: center;
         height: 50px;
-        font-size: 80%;
+        font-size: 3vw;
         
     }
-    nav li{
-        color: white;
-        display: inline;
-        
-    }
+    
     header{
         display: flex;
         flex-direction: row;
@@ -163,7 +159,7 @@ footer p{
         align-items: center;
         gap: 20px;
         height: 350px; 
-        font-size: 70%;
+        font-size: 2vw;
     }
     header img{
         border-radius: 150%;
@@ -171,17 +167,10 @@ footer p{
         width: 100px;
 
     }
-    .nadpis h1{
-        font-size: 1%;
-    }
-    .nadpis h3{
-        font-size: 5%;
-    }
+    
     main{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 50px;
         
     }
@@ -197,16 +186,8 @@ footer p{
         
     }
     .custom-shape-divider-top-1733331767 {
-        position: relative;
-        z-index: 100;
-        top: 100%;
-        max-width: 100%;
-        left: 0;
-        overflow-x: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
+        max-width: 100vw;
     }
-    
     .custom-shape-divider-top-1733331767 svg {
         position: absolute;
         display: block;
@@ -214,26 +195,12 @@ footer p{
         height: 800px;
         
     }
-    .custom-shape-divider-top-1733331767 .shape-fill {
-        fill: #D9D7D7;
-    }
+    
     .omne{
         max-width: 70px;
-        justify-content: center;
-        text-align: center;
-        font-family: Funnel Sans;
         margin-top: 30px;
-        
     }
-    .omne h5{
-        font-size: 150%;
-    
-    }
-    .omne p{
-        font-size: 100%;
-        text-align: justify;
-        padding-top: 5px;
-}
+   
 }
 
 /*table: Ipad mini*/
@@ -309,14 +276,9 @@ footer p{
         height: 850px;
         
     }
-    .custom-shape-divider-top-1733331767 .shape-fill {
-        fill: #D9D7D7;
-    }
+    
     .omne{
-        max-width: 70vw;
-        justify-content: center;
-        text-align: center;
-        font-family: Funnel Sans;
+        max-width: 60vw;
         margin-top: 30px;
         
     }
@@ -329,14 +291,9 @@ footer p{
         text-align: justify;
         padding-top: 5px;
     }
-    footer{
-        background-color: #403F3F;
        
-        
-    }
     footer p{
         text-align: center;
-        color: white;
     }
 }
 /*normální monitor*/
